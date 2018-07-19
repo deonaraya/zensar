@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="anyName" verbose="1" parallel="tests" >
+
+
+<test name="Regression1">
+    <parameter name="browser" value=""/>
+    <classes>
+        <class name="com.krunal.zensar.tests.secondUi" />
+    </classes>
+</test>
+</suite>
